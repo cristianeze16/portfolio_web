@@ -33,7 +33,7 @@ const Projects = () => {
       description: t("projects.project4.description"),
       tech: ["Javascript", "Chrome"],
       image: "./images/chrome_extension.jpg",
-      github: "https://github.com/cristianeze16/bot_telegram",
+      github: "https://github.com/cristianeze16/linkedin_palette",
     },
   ];
 
