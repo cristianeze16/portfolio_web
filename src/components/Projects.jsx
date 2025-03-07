@@ -35,6 +35,13 @@ const Projects = () => {
       image: "./images/chrome_extension.jpg",
       github: "https://github.com/cristianeze16/linkedin_palette",
     },
+    {
+      title: t("projects.project5.title"),
+      description: t("projects.project5.description"),
+      tech: ["Tailwind", "React"],
+      image: "./images/cv-gen.jpg",
+      live: "https://auto-cv-generator.vercel.app/",
+    },
   ];
 
   return (
@@ -63,14 +70,16 @@ const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-between p-4">
                   <div className="flex gap-4">
-                    <a
-                      href={project.github}
-                      className="text-white hover:text-blue-400 transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaGithub className="text-2xl" />
-                    </a>
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        className="text-white hover:text-blue-400 transition-colors"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaGithub className="text-2xl" />
+                      </a>
+                    )}
                     {project.live && (
                       <a
                         href={project.live}
