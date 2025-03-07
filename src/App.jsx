@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import { FaMoon, FaSun } from 'react-icons/fa';
+import { FaMoon, FaSun } from "react-icons/fa";
 import { LanguageProvider } from './context/LanguageContext';
 import LanguageToggle from './components/LanguageToggle';
 

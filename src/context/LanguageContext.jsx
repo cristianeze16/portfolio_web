@@ -28,6 +28,11 @@ const translations = {
         description:
           "Esta extensión de chrome, personaliza la paleta de colores de linkedin",
       },
+      project5: {
+        title: "Generador de cv",
+        description:
+          "Esta web app facilita la creación de CV para cualquier persona, permitiendo generar un documento profesional en minutos. Si te gusta el proyecto, podés apoyarme con un cafecito y ayudarme a seguir mejorándolo. ☕🚀",
+      },
     },
     skills: {
       title: "Mis Habilidades",
@@ -64,6 +69,11 @@ const translations = {
       project4: {
         title: "Chrome Extension",
         description: "This chrome extension customizes the linkedin color palette",
+      },
+      project5: {
+        title: "Auto CV generator",
+        description:
+          "This web app makes CV creation easy for everyone, allowing users to generate a professional document in minutes. If you like the project, you can support me with a coffee and help me keep improving it. ☕🚀",
       },
     },
     skills: {
