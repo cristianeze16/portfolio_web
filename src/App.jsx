@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import { FaMoon, FaSun } from "react-icons/fa";
 import { LanguageProvider } from './context/LanguageContext';
 import LanguageToggle from './components/LanguageToggle';
-
+import ChatWidget from "./components/ChatWidget";
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
     const savedMode = localStorage.getItem("darkMode");
@@ -39,6 +39,7 @@ function App() {
         <Projects />
         <Skills />
         <Contact />
+        <ChatWidget />
       </div>
     </LanguageProvider>
   );
