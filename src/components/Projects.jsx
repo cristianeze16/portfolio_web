@@ -42,6 +42,13 @@ const Projects = () => {
       image: "./images/cv-gen.jpg",
       live: "https://auto-cv-generator.vercel.app/",
     },
+    {
+      title: t("projects.project6.title"),
+      description: t("projects.project6.description"),
+      tech: ["Tailwind", "React", "PostgreSQL"],
+      image: "./images/coachFitAI-img.jpg",
+      live: "https://coachfitai.tech/",
+    },
   ];
 
   return (
