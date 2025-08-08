@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaReact, FaNodeJs, FaDatabase, FaJs, FaPython } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiMysql, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiMongodb, SiMysql, SiTailwindcss,SiPostgresql } from "react-icons/si";
 import { useLanguage } from "../context/LanguageContext";
 
 const Skills = () => {
@@ -19,6 +19,7 @@ const Skills = () => {
     // Databases
     { name: "MongoDB", icon: SiMongodb, color: "text-green-600" },
     { name: "MySQL", icon: SiMysql, color: "text-blue-600" },
+    { name: "PostgreSQL", icon: SiPostgresql, color: "text-blue-600" },
   ];
 
   return (

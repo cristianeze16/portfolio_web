@@ -39,7 +39,7 @@ function App() {
         <Projects />
         <Skills />
         <Contact />
-        <ChatWidget />
+        {/* <ChatWidget /> */}
       </div>
     </LanguageProvider>
   );

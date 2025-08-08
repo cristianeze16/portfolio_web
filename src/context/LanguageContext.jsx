@@ -33,6 +33,11 @@ const translations = {
         description:
           "Esta web app facilita la creación de CV para cualquier persona, permitiendo generar un documento profesional en minutos. Si te gusta el proyecto, podés apoyarme con un cafecito y ayudarme a seguir mejorándolo. ☕🚀",
       },
+      project6: {
+        title: "CoachFitAI",
+        description:
+          "CoachFit AI es una aplicación web de fitness y nutrición que combina inteligencia artificial, gestión de datos y una interfaz moderna para ayudar a los usuarios a alcanzar sus objetivos de entrenamiento. En pocas palabras: CoachFit AI genera planes de entrenamiento personalizados con IA, los guarda y permite gestionarlos desde un dashboard moderno",
+      },
     },
     skills: {
       title: "Mis Habilidades",
@@ -74,6 +79,11 @@ const translations = {
         title: "Auto CV generator",
         description:
           "This web app makes CV creation easy for everyone, allowing users to generate a professional document in minutes. If you like the project, you can support me with a coffee and help me keep improving it. ☕🚀",
+      },
+      project6: {
+        title: "CoachFitAI",
+        description:
+          "CoachFit AI is a web application for fitness and nutrition that combines artificial intelligence, data management, and a modern interface to help users achieve their training goals. In short: CoachFit AI generates personalized AI-powered workout plans, stores them, and allows users to manage them from a sleek, modern dashboard.",
       },
     },
     skills: {
